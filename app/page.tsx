@@ -739,7 +739,7 @@ export default function Home() {
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/60 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-zinc-900/60 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white">
               <p className="text-lg font-semibold">현대적인 기술 스택으로 혁신적인 솔루션을 만듭니다</p>
             </div>
