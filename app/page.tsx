@@ -573,7 +573,7 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative h-[400px] w-full overflow-hidden rounded-2xl shadow-2xl">
+            <div className="relative h-96 w-full overflow-hidden rounded-2xl shadow-2xl">
         <Image
                 src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop&q=80"
                 alt="서울 밤하늘"
@@ -777,7 +777,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-5xl">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
-            <div className="relative h-[400px] w-full overflow-hidden rounded-2xl shadow-2xl order-2 lg:order-1">
+            <div className="relative h-96 w-full overflow-hidden rounded-2xl shadow-2xl order-2 lg:order-1">
               <Image
                 src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&q=80"
                 alt="서울 밤하늘"
@@ -1181,7 +1181,7 @@ export default function Home() {
                   <h3 className="text-xl font-semibold mb-6">Fortune Cookie</h3>
                   {randomQuote ? (
                     <>
-                      <Card className="p-8 mb-6 bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 border-2 border-yellow-200 dark:border-yellow-800">
+                      <Card className="p-8 mb-6 bg-linear-to-br from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 border-2 border-yellow-200 dark:border-yellow-800">
                         <div className="flex flex-col items-center justify-center gap-4">
                           <Sparkles className="h-8 w-8 text-yellow-500" />
                           <p className="text-2xl font-medium text-zinc-900 dark:text-zinc-50 leading-relaxed">
