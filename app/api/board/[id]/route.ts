@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getPostById, updatePost, deletePost, likePost } from "@/lib/board";
+import { getPostById, updatePost, deletePost } from "@/lib/board";
 
 // PUT /api/board/[id] - 게시글 수정
 export async function PUT(
